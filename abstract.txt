@@ -1,0 +1,2 @@
+Takes multiple photos of the person and stores this data into its database. 
+While scanning, when the face is detected by the camera the system compares the given face with the images in the database and authorizes the person, if the person is already registered then it starts the vehicle or else identifies the person as Invalid user and the buzzer goes off and access is denied and the motor doesn’t start. 
