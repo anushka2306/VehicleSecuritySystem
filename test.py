@@ -16,7 +16,7 @@ face_recognizer.save('C:\\Users\\HP\\Desktop\\opencv\\opencv-master\\trainingDat
 #face_recognizer=cv2.face.LBPHFaceRecognizer_create()
 #face_recognizer.read('C:\\Users\\HP\\Desktop\\opencv\\opencv-master\\trainingData.yml')
 
-name={0:"Alia",1:"Anushka"}#creating dictionary containing names for each label
+name={0:"Anushka",1:"Aayush",2:"Abhilash",3:"Anurag"}#creating dictionary containing names for each label
 
 for face in faces_detected:
     (x,y,w,h)=face
